@@ -1,25 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Arafat Hossain">
-    <meta http-equiv="Content-Language" content="bn">
-    <meta name="keywords" content="বাংলা ছন্দ, বাংলা কবিতা, chondo, bangla poetry">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Arafat Hossain" />
+    <meta http-equiv="Content-Language" content="bn" />
+    <meta
+      name="keywords"
+      content="বাংলা ছন্দ, বাংলা কবিতা, chondo, bangla poetry"
+    />
     <!-- tailwind css -->
-     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="custom.css">
     <title>ছন্দ</title>
-</head>
-<body>
-    <nav id="poetry_navbar">
-        <ul id="list_of_poetry"></ul>
-    </nav>
+  </head>
+  <body class="bg-amber-100 box-border">
+    <!-- logo -->
+    <header>
+      <h1 class="logo">ছন্দ</h1>
+    </header>
+    <hr class="text-[#C8C8C8]" />
+    <!-- main contain -->
+    <section class="main_content">
+      <div>
+        <h1 id="title" class="title"></h1>
+      </div>
+      <div class="parent_poem ">
+        <pre id="main_txt" class="hintspace-pre-wrap break-words text-[17px] leading-relaxed md:text-[12px]"></pre>
+      </div>
+    </section>
+    <!-- button -->
+    <section class="mt-6 mb-6 flex flex-row justify-between md:justify-around">
+      <button id="previous" class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md p-2 ml-3">previous</button>
+      <button id="next" class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md px-5 mr-3 ">next</button>
+    </section>
+    <hr class="text-[#C8C8C8]">
+    <!-- footer -->
+    <footer class="flex flex-col justify-center items-center my-2 md:mt-5 ">
+      <p class="text-gray-600 md:text-[16px] ">Arafat Hossain</p>
+      <a href="mailto:arafathossain.cs@gmail.com" class="text-blue-500 md:text-[12px]">arafathossain.cs@gmail.com</a> 
+    </footer>
 
-    <!-- main content -->
-     <main>
-        <h1></h1>
-        <button type="button">previous</button>
-        <button type="button" class="p-1.5 bg-blue-500">next</button>
-     </main>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
