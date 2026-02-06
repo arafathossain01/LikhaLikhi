@@ -5,7 +5,7 @@
        @apply p-4 text-2xl font-semibold md:text-3xl md:ml-3 md:p-2 ;
     }
     .main_content{
-        @apply  flex flex-col justify-center items-center bg-amber-200 mt-3 border-3 border-amber-400 rounded-2xl md:max-w-3/4 md:max-h-80 md:justify-center md:items-center md:mx-auto; 
+        @apply  flex flex-col justify-center items-center bg-amber-200 mt-3 border-3 border-amber-400 rounded-2xl md:w-auto md:h-auto md:justify-center md:items-center md:mx-auto; 
     }
     .title{
         @apply font-semibold text-2xl p-2 md:text-2xl md:pb-3 ;
