@@ -11,34 +11,60 @@
     />
     <!-- tailwind css -->
     <link rel="stylesheet" href="./dist/output.css" />
-    <link rel="stylesheet" href="custom.css">
-    <title>ছন্দ</title>
+    <link rel="stylesheet" href="custom.css" />
+    <title>লিখালিখি</title>
   </head>
   <body class="bg-amber-100 box-border">
     <!-- logo -->
     <header>
-      <h1 class="p-4 text-2xl font-semibold md:text-3xl md:ml-3 md:p-2">ছন্দ</h1>
+      <h1 class="p-4 text-2xl font-semibold md:text-3xl md:ml-3 md:p-2">
+        লিখালিখি
+      </h1>
     </header>
     <hr class="text-[#C8C8C8]" />
     <!-- main contain -->
-    <section class="flex flex-col justify-center items-center bg-amber-200 mt-3 border-3 border-amber-400 rounded-2xl md:w-4xl md:h-auto md:justify-center md:items-center md:mx-auto">
+    <section
+      class="flex flex-col justify-center items-center bg-amber-200 mt-3 border-3 border-amber-400 rounded-2xl md:w-4xl md:h-auto md:justify-center md:items-center md:mx-auto"
+    >
       <div>
-        <h1 id="title" class="font-semibold text-2xl p-2 md:text-2xl md:pb-3"></h1>
+        <h1
+          id="title"
+          class="font-semibold text-2xl p-2 md:text-2xl md:pb-3"
+        ></h1>
       </div>
-      <div class="w-full max-w-md overflow-y-auto px-3 md:max-h-none md:overflow-y-hidden md:max-w-3xl md:flex md:justify-center md: ">
-        <pre id="main_txt" class="hintspace-pre-wrap wrap-break-word text-[17px] leading-relaxed md:text-[18px] "></pre>
+      <div
+        class="w-full max-w-md overflow-y-auto px-3 md:max-h-none md:overflow-y-hidden md:max-w-3xl md:flex md:justify-center md:"
+      >
+        <pre
+          id="main_txt"
+          class="hintspace-pre-wrap wrap-break-word text-[17px] leading-relaxed md:text-[18px]"
+        ></pre>
       </div>
     </section>
     <!-- button -->
     <section class="mt-6 mb-6 flex flex-row justify-between md:justify-around">
-      <button id="previous" class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md p-2 ml-3">previous</button>
-      <button id="next" class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md px-5 mr-3 ">next</button>
+      <button
+        id="previous"
+        class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md p-2 ml-3 cursor-pointer transition duration-200 ease-in-out hover:bg-amber-300 hover:scale-105"
+      >
+        previous
+      </button>
+      <button
+        id="next"
+        class="bg-[#F0FFC3] border-2 border-amber-400 rounded-md px-5 mr-3 cursor-pointer transition duration-200 ease-in-out hover:bg-amber-300 hover:scale-105"
+      >
+        next
+      </button>
     </section>
-    <hr class="text-[#C8C8C8]">
+    <hr class="text-[#C8C8C8]" />
     <!-- footer -->
-    <footer class="flex flex-col justify-center items-center my-2 md:mt-5 ">
-      <p class="text-gray-600 md:text-[16px] ">Arafat Hossain</p>
-      <a href="mailto:arafathossain.cs@gmail.com" class="text-blue-500 md:text-[12px]">arafathossain.cs@gmail.com</a> 
+    <footer class="flex flex-col justify-center items-center my-2 md:mt-5">
+      <p class="text-gray-600 md:text-[16px]">Arafat Hossain</p>
+      <a
+        href="mailto:arafathossain.cs@gmail.com"
+        class="text-blue-500 md:text-[12px]"
+        >arafathossain.cs@gmail.com</a
+      >
     </footer>
 
     <script src="script.js"></script>
