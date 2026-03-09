@@ -1,4 +1,4 @@
-# ছন্দ (Chondo)
+# লিখালিখি (Lihalikhi)
 
 A simple Bangla poetry/chondo viewer built with HTML, Tailwind CSS, and JavaScript.
 
